@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-ZA" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Areas We Cover | Royal Rides Phoenix Transport</title>
+  <meta name="description" content="Royal Rides picks up across Phoenix, including Woodview, Palmview, Sastripark and Trenance Manor, and travels to Umhlanga, Cornubia, Mount Edgecombe and Durban North.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Areas We Cover | Royal Rides Phoenix Transport">
+  <meta property="og:description" content="Search the Phoenix pickup areas and workplace destinations covered by Royal Rides.">
+  <meta property="og:site_name" content="Royal Rides">
+  <meta property="og:locale" content="en_ZA">
+
+  <meta name="theme-color" content="#0B0B0C">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <script>document.documentElement.classList.remove('no-js');</script>
+  <a href="#main" class="visually-hidden">Skip to main content</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a href="index.html" class="nav__logo">
+        <span class="crown" aria-hidden="true">&#128081;</span>
+        ROYAL <span class="brand-gold">RIDES</span>
+      </a>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="areas.html" class="nav__link is-active" aria-current="page">Areas</a></li>
+        <li><a href="about.html" class="nav__link">About Us</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+        <li><a href="contact.html#booking" class="btn btn--gold btn--small">Book Now</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <a href="contact.html#booking" class="btn btn--gold btn--small">Book Now</a>
+        <button class="nav__toggle" id="navToggle" type="button"
+                aria-expanded="false" aria-controls="navMenu"
+                aria-label="Open navigation menu">
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- PAGE BANNER -->
+    <section class="page-banner">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a> <span aria-hidden="true">/</span>
+          <span aria-current="page">Areas</span>
+        </nav>
+        <h1>Areas We Cover</h1>
+        <p>
+          Start typing your area or workplace below and the list will filter as
+          you type.
+        </p>
+      </div>
+    </section>
+
+    <!-- SEARCHABLE AREA LISTS -->
+    <section class="section areas-section">
+      <div class="container">
+
+        <!-- Search box -->
+        <div class="area-search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5L21 21"/></svg>
+          <label for="areaSearch" class="visually-hidden">Search your area</label>
+          <input type="search" id="areaSearch" placeholder="Search your area..."
+                 autocomplete="off">
+        </div>
+
+        <!-- Live count, updated by JavaScript -->
+        <p class="search-status" id="searchStatus" role="status" aria-live="polite">
+          Showing all pickup areas and destinations.
+        </p>
+
+        <div class="grid grid--2">
+
+          <!-- Phoenix pickup areas -->
+          <div class="area-panel reveal" data-area-panel>
+            <div class="area-panel__head">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 1114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <h3>Phoenix Pickup Areas</h3>
+            </div>
+
+            <ul class="chip-list">
+              <li class="chip" data-area="Unit 2">Unit 2</li>
+              <li class="chip" data-area="Unit 3">Unit 3</li>
+              <li class="chip" data-area="Unit 4">Unit 4</li>
+              <li class="chip" data-area="Unit 5">Unit 5</li>
+              <li class="chip" data-area="Unit 7">Unit 7</li>
+              <li class="chip" data-area="Unit 8">Unit 8</li>
+              <li class="chip" data-area="Unit 9">Unit 9</li>
+              <li class="chip" data-area="Unit 10">Unit 10</li>
+              <li class="chip" data-area="Unit 11">Unit 11</li>
+              <li class="chip" data-area="Unit 12">Unit 12</li>
+              <li class="chip" data-area="Unit 13">Unit 13</li>
+              <li class="chip" data-area="Unit 15">Unit 15</li>
+              <li class="chip" data-area="Unit 20">Unit 20</li>
+              <li class="chip" data-area="Unit 21">Unit 21</li>
+              <li class="chip" data-area="Woodview">Woodview</li>
+              <li class="chip" data-area="Palmview">Palmview</li>
+              <li class="chip" data-area="Sastripark">Sastripark</li>
+              <li class="chip" data-area="Trenance Manor">Trenance Manor</li>
+            </ul>
+
+            <p class="no-results">
+              No pickup area matches your search.
+            </p>
+          </div>
+
+          <!-- Destinations -->
+          <div class="area-panel reveal" data-delay="1" data-area-panel>
+            <div class="area-panel__head">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M4 20V6l7-3 7 3v14"/><path d="M4 20h16"/><path d="M9 20v-4h4v4"/></svg>
+              <h3>Destinations &amp; Workplaces</h3>
+            </div>
+
+            <ul class="chip-list">
+              <li class="chip chip--gold" data-area="Umhlanga">Umhlanga</li>
+              <li class="chip chip--gold" data-area="The Pearls">The Pearls</li>
+              <li class="chip chip--gold" data-area="Oceans Mall">Oceans Mall</li>
+              <li class="chip chip--gold" data-area="Cornubia Mall">Cornubia Mall</li>
+              <li class="chip chip--gold" data-area="Mount Edgecombe">Mount Edgecombe</li>
+              <li class="chip chip--gold" data-area="La Lucia Mall">La Lucia Mall</li>
+              <li class="chip chip--gold" data-area="Durban North">Durban North</li>
+              <li class="chip chip--gold" data-area="Rewardsco">Rewardsco</li>
+              <li class="chip chip--gold" data-area="Outworx">Outworx</li>
+              <li class="chip chip--gold" data-area="Nutun">Nutun</li>
+              <li class="chip chip--gold" data-area="Talksure">Talksure</li>
+              <li class="chip chip--gold" data-area="Local business parks">Local business parks</li>
+            </ul>
+
+            <p class="no-results">
+              No destination matches your search.
+            </p>
+          </div>
+
+        </div>
+
+        <p style="text-align:center;margin-top:36px;font-size:0.92rem;color:var(--text-muted);">
+          Do not see your area? Send us a message and we will let you know whether
+          we can reach you.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section section--dark">
+      <div class="container">
+
+        <div class="section-head centered reveal">
+          <p class="eyebrow">How It Works</p>
+          <h2>Three steps to your seat</h2>
+          <hr class="rule centered">
+        </div>
+
+        <div class="steps reveal">
+          <div class="step">
+            <div class="step__number">01</div>
+            <h3>Book</h3>
+            <p>Submit your transport request.</p>
+          </div>
+          <div class="step">
+            <div class="step__number">02</div>
+            <h3>Confirm</h3>
+            <p>Confirm your pickup point, destination and shift.</p>
+          </div>
+          <div class="step">
+            <div class="step__number">03</div>
+            <h3>Ride</h3>
+            <p>Travel comfortably to your destination.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band">
+      <div class="container">
+        <h2>Found your area?</h2>
+        <p>Send us your pickup area, destination and shift to get started.</p>
+        <div class="button-row">
+          <a href="contact.html#booking" class="btn btn--dark">Book Your Ride</a>
+          <a class="btn btn--outline-dark" data-whatsapp="neren" href="#">WhatsApp Neren</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo">
+            <span class="crown" aria-hidden="true">&#128081;</span>
+            ROYAL <span class="brand-gold">RIDES</span>
+          </a>
+          <p class="footer__tagline">Safe &bull; Reliable &bull; Comfortable</p>
+          <p>
+            Safe and reliable local transport and shuttle services connecting
+            Phoenix to surrounding areas and workplaces.
+          </p>
+        </div>
+
+        <nav aria-label="Footer navigation">
+          <h2 class="footer__heading">Pages</h2>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="areas.html">Areas</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h2 class="footer__heading">Contact</h2>
+          <div class="footer__contact">
+            <div class="footer__contact-person">
+              <strong>Neren</strong>
+              <a href="tel:+27760967502">076 096 7502</a>
+            </div>
+            <div class="footer__contact-person">
+              <strong>Melaine</strong>
+              <a href="tel:+27716894748">071 689 4748</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; <span data-year>2026</span> Royal Rides. All rights reserved.</span>
+        <span>Phoenix, KwaZulu-Natal, South Africa</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
